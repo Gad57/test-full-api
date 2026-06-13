@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ReqRes Test Framework">
+    <test name="All Tests">
+        <classes>
+            <class name="API.tests.UserTest"/>
+            <class name="API.tests.AuthTest"/>
+            <class name="API.tests.ResourcesTests"/>
+            <class name="API.tests.SchemaTests"/>
+        </classes>
+    </test>
+</suite>
